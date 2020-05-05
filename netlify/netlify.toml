@@ -1,5 +1,0 @@
-[build]
-    base = "netlify/"
-    publish = "netlify/dist/"
-    command = "npm run build"
-    functions = "netlify/functions/"
