@@ -20,13 +20,13 @@ export default {
       try {
         const res = await axios.get('/.netlify/functions/hello-world')
         console.debug(res)
-        this.hello = res
+        this.hello = res.data
       } catch (e) {
         console.error(e)
       }
     },
   },
-  
+
   created() {
     this.helloWorld();
   }
