@@ -18,7 +18,7 @@ export default {
   methods: {
     async helloWorld() {
       try {
-        const res = await axios.get('http://127.0.0.1:5000/hello')
+        const res = await axios.get('/hello')
         console.debug(res)
         this.hello = res.data
       } catch (e) {

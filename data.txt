@@ -1,0 +1,85 @@
+FREE
+
+AMAZON (FREE Tier)
+https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+* custom domain tiene costo desde $9 anual (Amazon Route 53)
+DynamoDB 25GB NoSQL | 25WCU/RCU (200MM solicitudes por mes)
+Lambda (js/python) | 1MM solicitudes por mes
+Cognito | 50K MAU al mes (servicio de login usuarios moviles)
+Galcier | 10GB almacenamiento objetos
+GraphQL or REST APIs (AWS Amplify console)
+(WebStatic se alojan en S3 y no es gratis)
+(WebApp (con api) se alojan en EC2 y no es gratis)
+
+AZURE (F1)
+https://azure.microsoft.com/en-us/free/
+* no permite custom domain
+Azure Cosmos DB 5GB 400 request units mensuales
+App Service 10 apps / 1GB disk / (60 CPU minutes / day)  (python/net core/java, etc api y static, web, mobile, or API apps)
+Functions 1MM request / 400,000 GB-s of resource mensuales
+
+
+GOOGLE (FREE tier)
+https://cloud.google.com/free/docs/gcp-free-tier#always-free-usage-limits
+Cloud Run (contenedores invocables request web o eventos pub/sub) / 2MM request por mes / 180K CPU segundos por mes / 1GB salida por mes
+Firestores (NoSQL) 1GB Disk / 50K read, 20K write y 20K delete por dia
+Compute Engine (contenedor) / 1 VM f1-micro siempre activa por mes / 30GB HDD x mes / 5GB instantaneas x mes / 1GB salida por mes
+Cloud Storage (data binary) / 5GB mes / 5K op clase A x mes / 50k op clase B x mes / 1GB salida x mes
+Pub/Sub / 10GB x mes
+*Cloud Functions 2MM request x mes / 5GB salida x mes / 400,000 GB-segundo, 200,000 GHz-segundo de tiempo de procesamiento (python, node, go)
+*App Engine 28 horas de instancias de front-end x día, 9 horas de instancias de backend x día / 5 GB de Cloud Storage / 1 GB de salida por día / Memcache compartida / 1K op busqueda x dia, 100 correos x dia
+Cloud Vision 1k unidades x mes
+API de Video Intelligence
+Voz a texto
+API de Cloud Natural Language
+AutoML Vision
+* Cualquier uso que supere los límites de uso de Siempre gratuito se factura de manera automática según las tarifas estándar.
+
+FIREBASE (SPARK)
+https://firebase.google.com/pricing?hl=es-419
+* permite custom domain
+App Distribution
+servicio Authentication gratis / auth telefonica 10,000 por mes
+Cloud Firestore (BD) / 1GB Disk / 10GB data mensual, 20K write, 50k read, 20k delete diarias
+Cloud Functions (javascript), para python usar GC / 125k request por mes, 40k GBs por mes,  40k CPU segundos por mes 
+(se puede integrar GraphQL en functions integrando server Apollo / https://medium.com/@lukepighetti/yes-you-can-query-firebase-with-graphql-e79a45990f22 / https://codeburst.io/graphql-on-cloud-functions-for-firebase-153fe7b02ea5)
+Cloud Messaging
+Crashlytics
+Dynamic Links
+Hosting / 1GB, 10GB/mes transferencia, SSL, multiples sitios por proyecto
+In-App Messaging
+Kit de AA / in device, hosting models, AutoML 1000 imagenes por proyecto, AutoML 3h por proyecto (API de Cloud Vision NO)
+Realtime Database / 100 conexiones simult / 1GB Disk / 10GB/mes descargados, 1 BD por proyecto
+Remote Config / 5GB disk/ 1gb/dia descarga / 1 por proyecto
+Test Lab / virtuales 10 por dia / fisico 5 por dia
+
+HEROKU
+* permite custom domain (sin SSL)
+https://www.heroku.com/pricing
+contenedores duermen cada 30 minutos de inactividad (casi cualquier lenguaje, python, java, node, etc)
+standard-1x 512 MB RAM | 1 Web/1 worker / 2 procesos
+bandwidth limit of 2TB per month
+postgres 10K Rows
+redis 25MB RAM / 20 connections
+pipeline
+git repo 75 requests hour, per app, per user. 1GB Disk
+
+NETLIFY (STARTER)
+https://www.netlify.com/pricing/
+* permite custom domain
+100GB bandwidth/month
+300 build minutes/month
+Global CDN deployments
+Unlimited sites
+functions Lambda javascript (amazon) / 125K request por mes, 100 horas por mes
+identity (login para apps) / 100 users
+forms (repositorio d datos de form automatico) 100 submits x mes, 10MB disk
+Large Media (repositorio binario) 2500 transformaciones x mes
+HTTPS
+
+
+
+
+
+
+
