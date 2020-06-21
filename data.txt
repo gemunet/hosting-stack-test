@@ -80,9 +80,11 @@ HTTPS
 DIGITAL OCEAN
 https://www.digitalocean.com/pricing/
 5$us month
+Memory	vCPUs	Transfer	SSD Disk	$/HR	$/MO
 VPS 1GB	1vCPU	1TB	25GB	$0.007	$5
 
 $15us/month
+Memory	vCPUs	Disk	Standby Nodes	$/HR	$/MO
 MySQL, Redis, and PostgreSQL 1GB	1vCPU	10GB	N/A	$0.022	$15
 
 
