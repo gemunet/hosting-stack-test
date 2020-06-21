@@ -56,7 +56,7 @@ Test Lab / virtuales 10 por dia / fisico 5 por dia
 HEROKU
 * permite custom domain (sin SSL)
 https://www.heroku.com/pricing
-contenedores duermen cada 30 minutos de inactividad (casi cualquier lenguaje, python, java, node, etc)
+dynos contenedores duermen cada 30 minutos de inactividad (casi cualquier lenguaje, python, java, node, etc)
 standard-1x 512 MB RAM | 1 Web/1 worker / 2 procesos
 bandwidth limit of 2TB per month
 postgres 10K Rows
@@ -76,6 +76,16 @@ identity (login para apps) / 100 users
 forms (repositorio d datos de form automatico) 100 submits x mes, 10MB disk
 Large Media (repositorio binario) 2500 transformaciones x mes
 HTTPS
+
+DIGITAL OCEAN
+https://www.digitalocean.com/pricing/
+5$us month
+VPS 1GB	1vCPU	1TB	25GB	$0.007	$5
+
+$15us/month
+MySQL, Redis, and PostgreSQL 1GB	1vCPU	10GB	N/A	$0.022	$15
+
+
 
 
 
